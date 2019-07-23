@@ -2,6 +2,9 @@
 	margin:0;
 	padding:0;
 }
+html,body{
+	font-family: 'Arial';
+}
 ul, ol, li {
 	list-style-type:none;
 }
@@ -15,8 +18,11 @@ p {
   text-indent:10px;
   line-height: 30px;
  }
+.p-indent a{
+	color: #582d87;
+} 
 .body div, body a, body p, body h {
-	font-family:OpenSans, Helvetica, Arial, sans-serif;
+	font-family:'Arial';
 }
 .clear {
 	clear:both;
@@ -32,6 +38,26 @@ p {
 .head-top {
 	width:1280px;
 	height:150px;
+	background-color: #582d87;
+
+}
+.head-top .left{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 45px;	
+}
+.head-top .left img{
+	width: 150px;
+	height: 150px;	
+}
+.head-top .right{
+	float: left;
+	color: #fff;
+	font-size: 24px;
+	line-height: 150px;
+	margin-left: 150px;
+	
 }
 .head-bottom {
 	width:1280px;
@@ -114,7 +140,7 @@ p {
 	width:1280px;
 	height:40px;
 	margin:0 auto;
-	background-color:#0078d7;
+	background-color:#582d87;
 }
 .statement-title-p {
 	font-weight:bold;
@@ -184,7 +210,7 @@ p {
 	width:1280px;
 	height:40px;
 	margin:0 auto;
-	background-color:#0078d7;
+	background-color:#582d87;
 }
 .results-title-p {
 	font-weight:bold;
@@ -272,7 +298,7 @@ p {
 	width:1280px;
 	height:40px;
 	margin:0 auto;
-	background-color:#0078d7;
+	background-color:#582d87;
 }
 .resources-title-p {
 	font-weight:bold;
@@ -315,7 +341,7 @@ p {
 	width:1280px;
 	height:40px;
 	margin:0 auto;
-	background-color:#0078d7;
+	background-color:#582d87;
 }
 .team-title-p {
 	font-weight:bold;
@@ -358,7 +384,8 @@ p {
 .space {
 	width:100%;
 	height:3px;
-	background-color:#0078d7;
+	/*background-color:#0078d7;*/
+	background-color:#582d87;
 }
 
 .footer {
